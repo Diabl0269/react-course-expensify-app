@@ -23,6 +23,7 @@
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "enzyme-to-json": "^3.4.3",
+    "express": "4.17.1",
     "fstream": "^1.0.12",
     "jest": "^24.9.0",
     "live-server": "^1.2.1",
