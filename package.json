@@ -20,10 +20,12 @@
     "babel-loader": "^8.0.6",
     "css-loader": "^3.4.2",
     "express": "4.17.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "fstream": "^1.0.12",
     "moment": "^2.24.0",
     "node-sass": "^4.13.1",
     "normalize.css": "^8.0.1",
+    "numeral": "^2.0.6",
     "raf": "^3.4.1",
     "react": "^16.12.0",
     "react-addons-shallow-compare": "^15.6.2",
@@ -39,17 +41,16 @@
     "tar": "^5.0.5",
     "uuid": "^3.3.3",
     "validator": "^12.1.0",
-    "webpack": "^4.41.5",
-    "extract-text-webpack-plugin": "^4.0.0-beta.0"
+    "webpack": "^4.41.5"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "enzyme-to-json": "^3.4.3",
-    "@babel/plugin-proposal-class-properties": "^7.8.3",
-    "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.10.1",
     "jest": "^24.9.0",
-    "react-test-renderer": "^16.12.0"
+    "react-test-renderer": "^16.12.0",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
   }
 }
