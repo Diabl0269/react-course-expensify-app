@@ -5,7 +5,6 @@
   "author": "Tal Efronny",
   "license": "MIT",
   "scripts": {
-    "serve": "live-server public/",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
@@ -20,13 +19,8 @@
     "@babel/preset-react": "^7.8.3",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.4.2",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.2",
-    "enzyme-to-json": "^3.4.3",
     "express": "4.17.1",
     "fstream": "^1.0.12",
-    "jest": "^24.9.0",
-    "live-server": "^1.2.1",
     "moment": "^2.24.0",
     "node-sass": "^4.13.1",
     "normalize.css": "^8.0.1",
@@ -38,7 +32,6 @@
     "react-modal": "^3.11.1",
     "react-redux": "^7.1.3",
     "react-router-dom": "^5.1.2",
-    "react-test-renderer": "^16.12.0",
     "redux": "^4.0.5",
     "sass-loader": "^8.0.2",
     "sshpk": "^1.16.1",
@@ -47,11 +40,16 @@
     "uuid": "^3.3.3",
     "validator": "^12.1.0",
     "webpack": "^4.41.5",
-    "webpack-dev-server": "^3.10.1"
+    "extract-text-webpack-plugin": "^4.0.0-beta.0"
   },
   "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.3",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
-    "extract-text-webpack-plugin": "^4.0.0-beta.0",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1",
+    "jest": "^24.9.0",
+    "react-test-renderer": "^16.12.0"
   }
 }
