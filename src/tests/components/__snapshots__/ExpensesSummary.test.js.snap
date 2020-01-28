@@ -3,17 +3,15 @@
 exports[`should render ExpensesSummary with expenses correctly 1`] = `
 <div>
   Number of Expenses: 
-  3
   <br />
   Total expenses: 
-  $1,141.95
+  $0.00
 </div>
 `;
 
 exports[`should render ExpensesSummary with no expenses correctly 1`] = `
 <div>
   Number of Expenses: 
-  0
   <br />
   Total expenses: 
   $0.00
