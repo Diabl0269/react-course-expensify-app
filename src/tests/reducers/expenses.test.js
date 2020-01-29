@@ -1,6 +1,5 @@
 import expensesReducer from "../../reducers/expenses";
 import expenses from "../fixtures/expenses";
-import { unstable_batchedUpdates } from "react-dom";
 
 test("should set default state", () => {
   const state = expensesReducer(undefined, { type: "@@INIT" });
@@ -63,4 +62,13 @@ test('should not edit expense if expense not found', () => {
     }
     const state = expensesReducer(expenses, action);
     expect(state).toEqual(expenses);
-})
+});
+
+test('should set expenses', () => {
+  const action = {
+    type: "SET_EXPENSES",
+    expenses
+  };
+  const state = expensesReducer(expenses, action);
+   expect(state).toEqual(expenses);
+});
