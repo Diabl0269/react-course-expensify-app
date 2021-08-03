@@ -44,7 +44,7 @@
     "sass-loader": "^8.0.2",
     "sshpk": "^1.16.1",
     "style-loader": "^1.1.2",
-    "tar": "^5.0.5",
+    "tar": "^5.0.7",
     "uuid": "^3.3.3",
     "validator": "^12.1.0",
     "webpack": "^4.41.5"
